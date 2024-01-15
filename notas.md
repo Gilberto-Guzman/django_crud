@@ -1,4 +1,8 @@
 
+    Get-ExecutionPolicy
+    Set-ExecutionPolicy RemoteSigned
+
+
     pip install virtualenv
     python -m venv .venv
     .\.venv\Scripts\Activate
@@ -22,3 +26,4 @@
     password: Eq_VdeRwx79e46i
 
     python manage.py runserver
+
